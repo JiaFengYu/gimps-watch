@@ -1,0 +1,1 @@
+{"host_id":"example-node","observed_at":"2026-10-26T12:00:00Z","sources":[{"id":"workers","kind":"worker_log","path":"workers.log","format":"prime95-text-subset-v1"},{"id":"results","kind":"results","path":"results.jsonl","format":"prime95-json-subset-v1"}]}

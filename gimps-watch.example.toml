@@ -1,0 +1,17 @@
+[observer]
+host_id = "example-node"
+database = "./state.sqlite"
+poll_interval_ms = 2000
+max_record_bytes = 65536
+
+[[sources]]
+id = "workers"
+kind = "worker_log"
+path = "./fixtures/basic-run/workers.log"
+format = "prime95-text-subset-v1"
+
+[[sources]]
+id = "results"
+kind = "results"
+path = "./fixtures/basic-run/results.jsonl"
+format = "prime95-json-subset-v1"

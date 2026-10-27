@@ -1,0 +1,7 @@
+[Worker #1] Starting PRP test of M1000003 using example FFT parameters.
+[Worker #2] Starting primality test of M1000033 using example FFT parameters.
+[Worker #1] Iteration: 1000 / 1000003 [0.10%], ms/iter: 2.50
+[Worker #2] Iteration: 2000 / 1000031 [0.20%], ms/iter: 2.70
+[Worker #1] M1000003 is not prime. Res64: 0123456789ABCDEF
+[Worker #2] ERROR: Example hardware error; this is synthetic test input.
+A deliberately unsupported example line.
